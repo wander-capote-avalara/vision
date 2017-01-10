@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel='shortcut icon' type='image/x-icon' href='../img/logo.png' />
 
-    <title>Vsion Partners - LogIn</title>
+    <title>Vsion Partners - Entrar</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,14 +22,14 @@
     <link href="../css/app/login.css" rel="stylesheet">
 
 </head>
-<body>
+<body class="img-responsive">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <form class="form-login  col-lg-8 col-lg-offset-2">
                     <img class="form-title img-responsive" src="../img/logo_site_branco.png"></img>
                     <div class="input-group input-group-lg">
-                        <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user icon-login" aria-hidden="true"></i></span>
+                        <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope icon-login" aria-hidden="true"></i></span>
                         <input type="text" class="form-control" placeholder="Insira seu e-mail" aria-describedby="sizing-addon1">
                     </div>   
                     <div class="input-group input-group-lg">
@@ -37,9 +37,9 @@
                         <input type="password" class="form-control" placeholder="Senha" aria-describedby="sizing-addon1">
                     </div> 
                     <div class="login-buttons">
-                        <button type="cancel" class="btn btn-danger col-lg-3 col-xs-3 ">Limpar</button> 
-                        <button type="submit" class="btn btn-success col-lg-9 col-xs-9 ">Entrar</button> 
-                        <button type="button" class="btn btn-primary col-lg-12 col-xs-12 btn-sm">Esqueci a senha</button>                     
+                        <button type="submit" class="btn btn-success col-lg-12 col-xs-12 ">Entrar</button> 
+                        <button type="reset" class="btn btn-danger col-lg-6 col-xs-6 ">Limpar</button> 
+                        <button type="button" class="btn btn-primary col-lg-6 col-xs-6 ">Esqueci a senha</button>                     
                     </div>
                 </form>          
             </div>

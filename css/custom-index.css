@@ -29,3 +29,24 @@ html{
     height: 30px;
 }
 
+.btn-default{
+    background-color:rgba(40, 148, 140, 0.2);
+    color: black;
+}
+
+#myModal{
+    color: black;
+}
+
+.icon-login{
+    width: 20px;
+}
+
+.register-button{
+    margin-top: 10px;
+    border-radius: 5px!important;
+}
+
+a{
+    cursor: pointer;
+}
