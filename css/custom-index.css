@@ -1,0 +1,31 @@
+footer{   
+    background-color: rgb(14, 13, 13) !important;
+    padding: 10px !important;
+}
+
+#contact{
+    padding-top: 30px;
+    padding: 70px;
+}
+
+html{
+    background-color: #FAFAFA !important;
+}
+
+.alternativeText h2{
+    color: #333333;
+}
+
+.alternativeText p{
+    color: #767676;
+}
+
+#contact i{
+    color: #000;
+}
+
+.logo{
+    width: 50px;
+    height: 30px;
+}
+
