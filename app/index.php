@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +24,6 @@
     <![endif]-->
     <!-- Custom CSS -->
     <link href="../css/app/index.css" rel="stylesheet" type="text/css">
-
 </head>
 <body>
     <div id="wrapper">
@@ -147,8 +145,82 @@
         <div id="page-wrapper">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12">
-                        
+                    <div class="col-lg-12 main-div">
+                        <h1 class="page-header title">Cadastro de algo</h1>
+                        <div class="content col-lg-12">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                            Formulário de cadastro
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <form role="form">
+                                            <div class="form-group col-lg-4">
+                                                <label for="inputCategory">Categoria*</label>
+                                                <select class="form-control" id="inputCategory">
+                                                    <option>Selecione uma categoria...</option>
+                                                    <option>Categoria 1</option>
+                                                    <option>Categoria 2</option>
+                                                    <option>Categoria 3</option>
+                                                </select>
+                                            </div>
+                                             <div class="form-group col-lg-8">
+                                                <label>Descrição*</label>
+                                                <input type="text" placeholder="Digite aqui uma descrição" class="form-control">
+                                            </div>
+                                             <div class="form-group col-lg-4">
+                                                <label>Valor (R$)*</label>
+                                                <input type="text" placeholder="Digite aqui o valor" class="form-control">
+                                            </div>
+                                            <div class="form-group col-lg-4">
+                                                <label for="inputCategory">Forma de pagamento*</label>
+                                                <select class="form-control" id="inputPaymentType">
+                                                    <option>Selecione uma forma de pagamento...</option>
+                                                    <option>Forma de pagamento 1</option>
+                                                    <option>Forma de pagamento 2</option>
+                                                    <option>Forma de pagamento 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-lg-4">
+                                                <label for="inputCategory">Cliente e Fornecedor</label>
+                                                <select class="form-control" id="inputClient">
+                                                    <option>Selecione um cliente e/ou fornecedor...</option>
+                                                    <option>Cliente 1</option>
+                                                    <option>Fornecedor 2</option>
+                                                    <option>Cliente 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-lg-3">
+                                                <label for="inputCategory">Tipo de conta*</label>
+                                                <select class="form-control" id="inputClient">
+                                                    <option selected>Á vista</option>
+                                                    <option>Parcelado</option>
+                                                    <option>Recorrente</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-lg-3">
+                                                <label>Parcelas</label>
+                                                <input type="number" class="form-control" disabled>
+                                            </div>
+                                            <div class="form-group col-lg-3">
+                                                <label>Data de Vencimento*</label>
+                                                <input type="date" class="form-control">
+                                            </div>
+                                             <div class="form-group col-lg-3">
+                                                <label>Data de Pagamento</label>
+                                                <input type="date" class="form-control">
+                                            </div>
+                                            <div class="buttons-form">
+                                                <button type="reset" class="btn btn-default">Cancelar</button>
+                                                <button type="submit" class="btn btn-primary">Enviar</button>  
+                                            </div>        
+                                        </form>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>  
                     </div>
                     <!-- /.col-lg-12 -->
                 </div>
@@ -168,5 +240,4 @@
     <!-- Custom Theme JavaScript -->
     <script src="../dist/js/sb-admin-2.js"></script>
 </body>
-
 </html>
