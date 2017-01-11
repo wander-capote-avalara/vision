@@ -18,15 +18,11 @@
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/app/material-design/regular,bold,italic,thin,light,bolditalic,black,medium.css">
-    <link rel="stylesheet" href="../css/app/material-design/material-icons.css">
-    <link rel="stylesheet" href="../css/app/material-design/material.cyan-light_blue.min.css">
-    <link rel="stylesheet" href="../css/app/styles.css">
 
     <link href="../css/app/login.css" rel="stylesheet">
 
 </head>
-<body class="img-responsive">
+<body class="login-body img-responsive">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -52,5 +48,4 @@
     <div class="footer">
         Copyright &copy; Vision Partners 2017
     </div>
-    <script src="../js/material.min.js"></script>
 </body>

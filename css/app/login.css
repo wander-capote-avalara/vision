@@ -17,7 +17,7 @@
     margin-bottom: 30px;
 }
 
-body{
+.login-body{
     position: relative;
     background-color: #FAFAFA;
     background-image: url("../../img/resumodasemana.jpg");
