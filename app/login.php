@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel='shortcut icon' type='image/x-icon' href='../img/logo.png' />
+    <link rel='shortcut icon' type='image/x-icon' href='../img/logo-mini.png' />
 
     <title>Vsion Partners - Entrar</title>
 
@@ -18,6 +18,10 @@
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/app/material-design/regular,bold,italic,thin,light,bolditalic,black,medium.css">
+    <link rel="stylesheet" href="../css/app/material-design/material-icons.css">
+    <link rel="stylesheet" href="../css/app/material-design/material.cyan-light_blue.min.css">
+    <link rel="stylesheet" href="../css/app/styles.css">
 
     <link href="../css/app/login.css" rel="stylesheet">
 
@@ -26,8 +30,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <form class="form-login  col-lg-8 col-lg-offset-2">
-                    <img class="form-title img-responsive" src="../img/logo_site_branco.png"></img>
+                <form class="form-login  col-lg-8 col-lg-offset-2" method="POST" action="index.php">
+                    <img class="form-title img-responsive" src="../img/logo_site.png"></img>
                     <div class="input-group input-group-lg">
                         <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope icon-login" aria-hidden="true"></i></span>
                         <input type="text" class="form-control" placeholder="Insira seu e-mail" aria-describedby="sizing-addon1">
@@ -36,10 +40,9 @@
                         <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-lock icon-login" aria-hidden="true"></i></span>
                         <input type="password" class="form-control" placeholder="Senha" aria-describedby="sizing-addon1">
                     </div> 
-                    <div class="login-buttons">
-                        <button type="submit" class="btn btn-success col-lg-12 col-xs-12 ">Entrar</button> 
-                        <button type="reset" class="btn btn-danger col-lg-6 col-xs-6 ">Limpar</button> 
-                        <button type="button" class="btn btn-primary col-lg-6 col-xs-6 ">Esqueci a senha</button>                     
+                        <button type="button" class="btn btn-link col-lg-6 col-xs-6 col-lg-offset-3 col-xs-offset-3">Esqueceu a senha? </button>  
+                    <div class="login-buttons"> 
+                        <button type="submit" class="btn col-lg-12 col-xs-12 main-button">Entrar</button>                    
                     </div>
                 </form>          
             </div>
@@ -49,4 +52,5 @@
     <div class="footer">
         Copyright &copy; Vision Partners 2017
     </div>
+    <script src="../js/material.min.js"></script>
 </body>

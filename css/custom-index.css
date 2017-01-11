@@ -50,3 +50,12 @@ html{
 a{
     cursor: pointer;
 }
+
+.modal-header{
+    background-color: rgba(255,255,255,0.9) !important;
+}
+
+.modal-content{
+    background-color: rgba(255,255,255,0.9) !important;
+}
+
