@@ -40,6 +40,8 @@ html{
 
 .icon-login{
     width: 20px;
+    float: left;
+    margin-right: 10px;
 }
 
 .register-button{
