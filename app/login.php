@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="Wander Capote" content="">
     <link rel='shortcut icon' type='image/x-icon' href='../img/logo-mini.png' />
 
     <title>Vsion Partners - Entrar</title>
@@ -36,7 +36,7 @@
                         <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-lock icon-login" aria-hidden="true"></i></span>
                         <input type="password" class="form-control" placeholder="Senha" aria-describedby="sizing-addon1">
                     </div> 
-                        <button type="button" class="btn btn-link col-lg-6 col-xs-6 col-lg-offset-3 col-xs-offset-3">Esqueceu a senha? </button>  
+                    <button type="button" class="btn btn-link col-lg-6 col-xs-6 col-lg-offset-3 col-xs-offset-3">Esqueceu a senha? </button>  
                     <div class="login-buttons"> 
                         <button type="submit" class="btn col-lg-12 col-xs-12 main-button">Entrar</button>                    
                     </div>
@@ -44,7 +44,7 @@
             </div>
         </div>
     </div>
-        <!-- Footer -->
+    <!-- Footer -->
     <div class="footer">
         Copyright &copy; Vision Partners 2017
     </div>
