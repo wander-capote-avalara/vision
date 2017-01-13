@@ -1,3 +1,6 @@
+<?php
+    //echo phpinfo();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,7 +51,7 @@
                     <!-- /.dropdown -->
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
+                            <i class="fa fa-bell fa-fw fa-lg"></i><span class="badge-notify">2</span> <i class="fa fa-caret-down"></i>
                         </a>
                         <ul class="dropdown-menu dropdown-alerts">
                             <li>
@@ -74,7 +77,7 @@
                     <!-- /.dropdown -->
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                            <i class="fa fa-user fa-fw fa-lg"></i> <i class="fa fa-caret-down"></i>
                         </a>
                         <ul class="dropdown-menu dropdown-user">
                             <li><a href="#"><i class="fa fa-user fa-fw"></i> Perfil</a>
@@ -151,7 +154,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 main-div">
-                        <h2 class="page-header title">Cadastro de algo</h2>
+                        <h2 class="page-header title">Movimentações</h2>
                         <div class="content col-lg-12">
                             <div class="row">
                                 <div class="panel panel-default">

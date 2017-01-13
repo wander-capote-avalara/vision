@@ -67,3 +67,18 @@ table tr{
 #dataTables-example_filter input{
   width: 171px!important
 }
+
+.badge-notify{
+   background-color:rgb(255,0,0);
+   position:relative;
+   font-size: 11px;
+   color: #FFF;
+   border-radius: 50%;
+   right: 8px;
+   bottom: 10px;
+   padding: 3px;
+   padding-right: 4px;
+   padding-left: 5px;
+   border-right: 1px solid rgba(0,0,0,0.1);
+   box-shadow: 1px 1px 6px rgba(0,0,0,0.7)
+}
