@@ -1,0 +1,15 @@
+#insideTableTitle h4{
+	text-align: center;
+	margin: 6px 0 20px!important;
+}
+
+.sendButtonProfile{
+	width: 100%!important;
+	margin-bottom: 10px;
+	margin-top: -10px;
+}
+
+.buttonBusinessRegister{
+	margin-top: 25px;
+	width: 100%;
+}

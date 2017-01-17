@@ -23,6 +23,8 @@
     <link href="../vendor/datatables-plugins/dataTables.bootstrap.css" rel="stylesheet">
     <!-- DataTables Responsive CSS -->
     <link href="../vendor/datatables-responsive/dataTables.responsive.css" rel="stylesheet">
+    <!-- Toastr -->
+    <link href="../css/toastr.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -80,7 +82,7 @@
                             <i class="fa fa-user fa-fw fa-lg"></i> <i class="fa fa-caret-down"></i>
                         </a>
                         <ul class="dropdown-menu dropdown-user">
-                            <li><a href="#"><i class="fa fa-user fa-fw"></i> Perfil</a>
+                            <li><a id="profile"><i class="fa fa-user fa-fw"></i> Perfil</a>
                             </li>
                             <li><a href="#"><i class="fa fa-gear fa-fw"></i> Opções</a>
                             </li>
@@ -488,9 +490,19 @@
  <!-- Custom Theme JavaScript -->
  <script src="../dist/js/sb-admin-2.js"></script>
  <script src="../vendor/chartjs/chart.min.js"></script>
+ <!-- Toastr -->
+ <script src="../js/toastr.min.js"></script>
+
+ <!-- Vision JS -->
+ <script src="../js/vision.js"></script>
 
  <!-- Page-Level Demo Scripts - Tables - Use for reference -->
  <script>
+
+    $("#profile").on("click", function(){
+        $("#page-wrapper").load("profile/profile.php");
+    })
+
     $(document).ready(function() {
         var data = {
             labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho"],
@@ -541,22 +553,6 @@
                 url: "../vendor/dataTables/translate/pt-br.json"
             },
         });
-
-        $("#inputTimes").on("change", function(){
-            if (this.value == 2)
-                $("#parcels").removeAttr("disabled");
-            else
-                $("#parcels").attr("disabled", "disabled");              
-
-        })
-
-        $(".clicker").click(function(){
-            if ($(this).parent().find(".list").css('display') == 'none' ) 
-                $(this).parent().find(".list").show("slow");
-            else
-             $(this).parent().find(".list").hide("slow"); 
-
-     })
     });
 </script>
 </body>
